@@ -1,3 +1,5 @@
+# Bash Commands
+
 ### Get full directory name
 ```bash
 dirname $(readlink -f "$0")
