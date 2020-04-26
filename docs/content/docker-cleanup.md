@@ -1,6 +1,6 @@
 # Docker Cleanup
 
-### Images
+## Images
 
 Find dangling images
 ```bash
@@ -16,7 +16,7 @@ or
 docker images purge
 ```
 
-### Containers
+## Containers
 
 Find exited containers
 ```bash
@@ -28,7 +28,7 @@ Remove them
 docker rm -f $(docker ps -a -f status=exited -q)
 ```
 
-### All Unused Enities
+## All Unused Enities
 
 Remove dandling images, containers, volumes, networks
 ```bash

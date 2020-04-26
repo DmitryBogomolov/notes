@@ -1,6 +1,6 @@
 # Bash Commands
 
-### Get full directory name
+## Get full directory name
 ```bash
 dirname $(readlink -f "$0")
 ```
@@ -11,7 +11,7 @@ $ /path/to/dir/script.sh
 /path/to/dir
 ```
 
-### Get script name
+## Get script name
 ```bash
 basename $(readlink -f "$0")
 ```

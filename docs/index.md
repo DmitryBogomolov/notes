@@ -5,3 +5,4 @@
 - [RabbitMQ in Docker](./content/rabbitmq-in-docker)
 - [Mongo Dump Restore](./content/mongo-dump-restore)
 - [Docker Cleanup](./content/docker-cleanup)
+- [Docker Registry](./content/docker-registry)
