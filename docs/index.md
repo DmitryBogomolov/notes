@@ -11,3 +11,4 @@
 - [ESLint in VSCode](./content/eslint-in-vscode)
 - [SSH Setup](./content/ssh-setup)
 - [Docker Registry with S3](./content/docker-registry-s3)
+- [Nginx in Docker](./content/nginx-in-docker)
