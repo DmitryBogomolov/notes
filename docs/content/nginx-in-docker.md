@@ -1,11 +1,11 @@
 # Nginx in Docker
 
-[DockerHub](https://hub.docker.com/_/nginx/)\
+[DockerHub](https://hub.docker.com/_/nginx/)  
 [Docs](http://nginx.org/en/docs/)
 
 ## Simple container
 
-Make *nginx-content* folder and place *index.html* and *page.html* files there.\
+Make *nginx-content* folder and place *index.html* and *page.html* files there.  
 Run container.
 ```bash
 docker run \
@@ -72,7 +72,7 @@ curl http://localhost:8091/test/page.html
 
 ## Upsteams
 
-Run two servers - `:8081` and `:8082`.\
+Run two servers - `:8081` and `:8082`.  
 Update */etc/nginx/conf.d/default.conf* file - add *upsteam* section.
 ```conf
 upstream test-upstream {
